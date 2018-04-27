@@ -12,6 +12,9 @@
 		D1E8279D20932C3700725620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E8279B20932C3700725620 /* Main.storyboard */; };
 		D1E8279F20932C3900725620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E8279E20932C3900725620 /* Assets.xcassets */; };
 		D1E827A220932C3900725620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E827A020932C3900725620 /* LaunchScreen.storyboard */; };
+		D1E827C92093528700725620 /* SecondFileToPull in Resources */ = {isa = PBXBuildFile; fileRef = D1E827C82093528700725620 /* SecondFileToPull */; };
+		D1E827CB2093529D00725620 /* EmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E827CA2093529D00725620 /* EmptyFile.swift */; };
+		D1E827CD209352C000725620 /* AnotherEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E827CC209352C000725620 /* AnotherEmpty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D1E8279E20932C3900725620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E827A120932C3900725620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1E827A320932C3900725620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E827C82093528700725620 /* SecondFileToPull */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SecondFileToPull; sourceTree = "<group>"; };
+		D1E827CA2093529D00725620 /* EmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFile.swift; sourceTree = "<group>"; };
+		D1E827CC209352C000725620 /* AnotherEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherEmpty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				D1E8279B20932C3700725620 /* Main.storyboard */,
 				D1E8279E20932C3900725620 /* Assets.xcassets */,
 				D1E827A020932C3900725620 /* LaunchScreen.storyboard */,
+				D1E827C82093528700725620 /* SecondFileToPull */,
+				D1E827CA2093529D00725620 /* EmptyFile.swift */,
+				D1E827CC209352C000725620 /* AnotherEmpty.swift */,
 				D1E827A320932C3900725620 /* Info.plist */,
 			);
 			path = "Git Tutorial";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E827C92093528700725620 /* SecondFileToPull in Resources */,
 				D1E827A220932C3900725620 /* LaunchScreen.storyboard in Resources */,
 				D1E8279F20932C3900725620 /* Assets.xcassets in Resources */,
 				D1E8279D20932C3700725620 /* Main.storyboard in Resources */,
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E827CB2093529D00725620 /* EmptyFile.swift in Sources */,
+				D1E827CD209352C000725620 /* AnotherEmpty.swift in Sources */,
 				D1E8279A20932C3700725620 /* ViewController.swift in Sources */,
 				D1E8279820932C3700725620 /* AppDelegate.swift in Sources */,
 			);
