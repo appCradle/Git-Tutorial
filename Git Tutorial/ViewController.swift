@@ -10,13 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
-     let message = "Hello Git!"
+    @IBOutlet weak var reverseLabel: UILabel!
+    let message = "Hello Git!"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print(message)
-        print(reverse(text: "stressed"))
+        
+        let reversed = reverse(text: "stressed")
+        print(reversed)
+        reverseLabel.text = reversed
     }
 
     override func didReceiveMemoryWarning() {
